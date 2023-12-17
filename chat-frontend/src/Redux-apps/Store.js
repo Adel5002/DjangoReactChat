@@ -5,6 +5,6 @@ import contextmyReducer from './RdxContext'
 export const store = configureStore({
   reducer: {
     nameOfRoom: contextmyReducer,
-    messageFromServer: contextmyReducer,
+    // messageFromServer: contextmyReducer,
   },
 })

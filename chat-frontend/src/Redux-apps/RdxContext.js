@@ -11,15 +11,15 @@ export const contextMy = createSlice({
         RoomName: (state, action) => {
             state.value = action.payload
         },
-        ServerMessage: (state, action) => {
-            state.message = action.payload
-        },
+        // ServerMessage: (state, action) => {
+        //     state.message = action.payload
+        // },
     }
 })
 
 
 
-export const {RoomName, ServerMessage} = contextMy.actions
+export const {RoomName} = contextMy.actions
 
 
 export default contextMy.reducer
